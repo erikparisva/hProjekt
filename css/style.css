@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'KoHo', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.screen {
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.screen .KutuseKalk {
+  padding-top: 2em;
+  font-size: 3.5em;
+  color: #333;
+}
+
+.screen p {
+  font-size: 1.25em;
+  color: #333;
+}
+
+.screen input {
+  height: 30px;
+  width: 80px;
+}
+
+.screen h2 {
+  color: #333;
+  padding-top: 20px;
+}
+/*# sourceMappingURL=style.css.map */

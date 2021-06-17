@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=KoHo:wght@300;400;500;700&display=swap');
+    </style>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="GasCalculatorJS.js"></script>
+    <title>Alpha 0.1</title>
+</head>
+<body>
+    <ul>
+        <li><a href="ChillKohad.html">Chill Kohad</a></li>
+        <li><a href="GasCalculator.html">Kütuse Kalk.</a></li>
+        <li><a href="#">Arvelduse Jagaja</a></li>
+        <li><a href="VoimaluseMang.html">Võimaluse Mäng</a></li>
+        <li><a href="Leaderboard.html">Leaderboard</a></li>
+        <li><a href="#">Info</a></li>
+      </ul>
+
+      <div class="screen">
+        <h1 class="KutuseKalk">KÜTUSE KALKULAATOR</h1>
+        <p>TEEKONNA PIKKUS(KM): <input id="teekond" type="number" min="10" max="10000" onchange="computeConsumption()"></p>
+        <p>KESKMINE KÜTUSEKULU(L/100KM): <input id="keskkulu" type="number" min="1" max="100" onchange="computeConsumption()"></p>
+        <p>KÜTUSE HIND(€): <input id="kutusehind" type="number" min="1" max="10" onchange="computeConsumption()"></p>
+        <p>MITME INIMESE VAHEL KÜTUS JAGADA?: <input id="inimesed" type="number" min="1" max="50" onchange="computeConsumption()"></p>
+        <h2 id="consumption"></h2>
+      </div>
+</body>
+</html>
